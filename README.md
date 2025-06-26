@@ -60,9 +60,18 @@ If requirements.txt is not present, install manually:
 pip install pandas numpy scikit-learn matplotlib seaborn xgboost flask joblib
 ```
 # 📂 Project Structure
+```bash
+        GeoCropAI-india-soil-health-card/
+                                        ├── india_soil_health_card_data.csv      # CSV dataset used for training & prediction
+                                        ├── label_encoder.pkl                    # LabelEncoder used to encode soil labels
+                                        ├── scaler.pkl                           # StandardScaler used to scale feature inputs
+                                        ├── soil_health_analysis.py              # Your main ML model script (all steps included)
+                                        ├── xgb_model.pkl                        # Trained XGBoost model (used in prediction)
+                                        ├── india-soil-health-card/              # Original cloned GitHub repo (used for reference)
+                                        └── soil_env/                            # Virtual environment directory (for local Python setup)
 
-
-    
+  ```
+  
 # 🔍 How to Use
 ⚙️ 1. Run the Prediction Engine
 ```bash
