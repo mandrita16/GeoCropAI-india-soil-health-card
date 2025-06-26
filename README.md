@@ -30,8 +30,8 @@ https://github.com/google-research-datasets/india-soil-health-card
 
 ✅ Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/AgriIntel.git
-cd AgriIntel
+git clone https://github.com/your-username/GeoCropAI-india-soil-health-card.git
+cd GeoCropAI-india-soil-health-card
 ```
 
 ✅ Step 2: Create and Activate Virtual Environment
