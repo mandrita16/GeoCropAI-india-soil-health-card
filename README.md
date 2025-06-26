@@ -109,7 +109,7 @@ Ensemble	96.25% ✅
         
         The trained model (xgb_model.pkl) and feature scaler (scaler.pkl) were generated using the following commands inside soil_health_analysis.py:
         
-        ```bash
+       
         import joblib
         
         # Save model and scaler
@@ -117,7 +117,7 @@ Ensemble	96.25% ✅
         joblib.dump(scaler, 'scaler.pkl')
         These files will be loaded inside app.py during runtime to serve predictions.
         
-        ```
+        
 *API exposure for government portal integration
 
 # 🙏 Acknowledgments
