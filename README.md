@@ -1,1 +1,1 @@
-# GeoCropAI-india-soil-health-card-
+# GeoCropAI-india-soil-health-card
